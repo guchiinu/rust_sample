@@ -1,0 +1,25 @@
+[package]
+name = "rust_sample"
+version = "0.1.0"
+authors = ["guchiinu <guchiinu@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "00_minimum"
+path = "src/00_minimum/main.rs"
+
+[[bin]]
+name = "01_function"
+path = "src/01_function/main.rs"
+
+[[bin]]
+name = "02_hello_world"
+path = "src/02_hello_world/main.rs"
+
+[[bin]]
+name = "03_variable"
+path = "src/03_variable/main.rs"
