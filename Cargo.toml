@@ -23,3 +23,7 @@ path = "src/02_hello_world/main.rs"
 [[bin]]
 name = "03_variable"
 path = "src/03_variable/main.rs"
+
+[[bin]]
+name = "04_read_file"
+path = "src/04_read_file/main.rs"
